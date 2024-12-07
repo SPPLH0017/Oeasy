@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>画龙点睛 - 文生图展示</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    ul {
+      margin: 10px auto;
+      padding: 0;
+      list-style: none;
+      max-width: 600px;
+      text-align: left;
+    }
+    ul li {
+      margin: 5px 0;
+      padding: 5px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .image-container {
+      margin: 20px 0;
+    }
+    img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>画龙点睛 (huà lóng diǎn jīng)</h1>
+  
+  <h2>生成的文本描述</h2>
+  <ul>
+    <li>一条巨龙盘旋在山巅，龙身蜿蜒，气势磅礴。</li>
+    <li>画师手持画笔，在龙的眼睛处轻轻一点。</li>
+    <li>龙的眼睛瞬间闪耀光芒，仿佛活了过来。</li>
+    <li>周围云雾缭绕，场景宛如仙境。</li>
+  </ul>
+  
+  <div class="image-container">
+    <h2>生成的画面</h2>
+    <img src="generated-dragon-image.jpg" alt="画龙点睛生成画面">
+  </div>
+  
+  <h2>生成过程简述</h2>
+  <p>通过文生图模型，我们输入成语“画龙点睛”并附加描述性文字，如龙的外形、场景等。模型根据输入生成了图像，后续使用图像处理工具对细节进行完善。</p>
+
+</body>
+</html>
